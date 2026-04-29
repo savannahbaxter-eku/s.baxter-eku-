@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Library Programs - Daniel Boone Elementary</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6f8f2;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* ✅ FIXED NAVIGATION (same across all pages) */
+    nav {
+      background-color: #388e3c;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 0;
+
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 18px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: rgba(255, 235, 59, 0.2);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .program {
+      background: white;
+      border-left: 8px solid #2e7d32;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .program h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+
+    .highlight {
+      background-color: #fffde7;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    section {
+      scroll-margin-top: 80px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header id="top">
+  <h1>Library Programs</h1>
+  <p>Supporting learning, reading, and creativity for all students</p>
+</header>
+
+<!-- ✅ FIXED NAV -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="incoming-books.html">Incoming Books</a>
+  <a href="#programs">Programs</a>
+  <a href="#top">Top</a>
+</nav>
+
+<div class="container">
+
+  <section id="programs">
+
+    <div class="program">
+      <h2>📖 Reading Buddies</h2>
+      <p>
+        Older students help younger students practice reading skills.
+        This program builds confidence, fluency, and friendships through shared reading.
+      </p>
+    </div>
+
+    <div class="program">
+      <h2>📚 Book Checkout Days</h2>
+      <p>
+        Students visit the library weekly to check out books that match their interests and reading levels.
+      </p>
+    </div>
+
+    <div class="program">
+      <h2>🌟 Reading Challenges</h2>
+      <p>
+        Students set reading goals and earn rewards for completing books and meeting milestones.
+      </p>
+    </div>
+
+    <div class="program">
+      <h2>Digital Literacy Lessons</h2>
+      <p>
+        Students learn how to safely use technology, research topics, and evaluate online information.
+      </p>
+    </div>
+
+    <div class="program highlight">
+      <h2>Special Events</h2>
+      <p>
+        We celebrate events like Read Across America, Book Fairs, and author visits to inspire a love of reading.
+      </p>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Daniel Boone Elementary Library</p>
+</footer>
+
+</body>
+</html>

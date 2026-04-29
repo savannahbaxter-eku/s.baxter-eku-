@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Daniel Boone Elementary Library</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6f8f2;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* ✅ FIXED NAV (consistent across entire site) */
+    nav {
+      background-color: #388e3c;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 0;
+
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 18px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: rgba(255, 235, 59, 0.2);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border-left: 8px solid #2e7d32;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .highlight {
+      background-color: #fffde7;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    a.email {
+      color: #2e7d32;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    section {
+      scroll-margin-top: 80px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header id="top">
+  <h1>Contact Us</h1>
+  <p>Daniel Boone Elementary Library</p>
+</header>
+
+<!-- ✅ FIXED NAVIGATION SYSTEM -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="incoming-books.html">Incoming Books</a>
+  <a href="programs.html">Programs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+  <section id="contact">
+
+    <div class="card">
+      <h2>Meet the Librarian</h2>
+      <p>
+        Hello. My name is <strong>Savannah Baxter</strong>, and I am the librarian at Daniel Boone Elementary School.
+        I support students in developing reading skills, exploring books, and becoming lifelong learners.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact Information</h2>
+      <p><strong>Phone:</strong> 859-627-5090</p>
+      <p>
+        <strong>Email:</strong>
+        <a class="email" href="mailto:savannah.baxter@madison.kyschools.us">
+          savannah.baxter@madison.kyschools.us
+        </a>
+      </p>
+    </div>
+
+    <div class="card highlight">
+      <h2>Library Goals</h2>
+      <ul>
+        <li>Encourage students to develop a lifelong love of reading</li>
+        <li>Support learning across all subjects through library resources</li>
+        <li>Teach students how to find, evaluate, and use information responsibly</li>
+        <li>Create a safe, welcoming, and inclusive learning environment</li>
+        <li>Foster curiosity, creativity, and independent thinking</li>
+      </ul>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Daniel Boone Elementary Library</p>
+</footer>
+
+</body>
+</html>

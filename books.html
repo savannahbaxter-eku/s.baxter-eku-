@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Incoming Books - Daniel Boone Library</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f6f8f2;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* ✅ FIXED NAVIGATION (works across site) */
+    nav {
+      background-color: #388e3c;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 0;
+
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #ffeb3b;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 18px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: rgba(255, 235, 59, 0.2);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* SECTION ANCHOR SPACING FIX */
+    section {
+      scroll-margin-top: 80px;
+    }
+
+    .book {
+      display: flex;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .book img {
+      width: 150px;
+      height: auto;
+    }
+
+    .book-info {
+      padding: 15px;
+    }
+
+    .book-info h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #2e7d32;
+      color: #ffeb3b;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header id="top">
+  <h1>Incoming Books</h1>
+  <p>New stories coming soon to our library!</p>
+</header>
+
+<!-- ✅ FIXED NAVIGATION -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="#books">Books</a>
+  <a href="#top">Top</a>
+</nav>
+
+<div class="container">
+
+  <section id="books">
+
+    <!-- BOOK 1 -->
+    <div class="book">
+      <img src="https://covers.openlibrary.org/b/id/10594763-L.jpg" alt="Book Cover">
+      <div class="book-info">
+        <h2>The Wild Robot</h2>
+        <p>
+          A robot named Roz wakes up alone on a wild island and must learn how to survive
+          and connect with the animals around her. A story about nature, friendship, and belonging.
+        </p>
+      </div>
+    </div>
+
+    <!-- BOOK 2 -->
+    <div class="book">
+      <img src="https://covers.openlibrary.org/b/id/8370221-L.jpg" alt="Book Cover">
+      <div class="book-info">
+        <h2>Wonder</h2>
+        <p>
+          A boy born with facial differences enters school for the first time and teaches others
+          about kindness, acceptance, and courage.
+        </p>
+      </div>
+    </div>
+
+    <!-- BOOK 3 -->
+    <div class="book">
+      <img src="https://covers.openlibrary.org/b/id/8311996-L.jpg" alt="Book Cover">
+      <div class="book-info">
+        <h2>Charlotte’s Web</h2>
+        <p>
+          A heartwarming story about friendship between a pig named Wilbur and a spider named Charlotte,
+          who tries to save his life through her clever web-writing.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Daniel Boone Elementary Library</p>
+</footer>
+
+</body>
+</html>
